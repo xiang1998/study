@@ -1,0 +1,44 @@
+// 主题色
+$page-bg:#f5f5f5;
+$color-main: #4378BE;
+$color-main-dark: #e67826;
+
+// 页面背景色一般为页面浅灰色
+$color-bg: #4378BE;
+
+// 页面其他颜色
+$color-red:#ff5352;
+$color-green: #13AE67;
+$color-dark-gray:#dcdddd;
+$color-gray: #666;
+$color-light-gray: #999;
+$color-superlight-gray: #b6b7b7;
+$color-black: #000;
+$color-white: #fff;
+
+// 文字尺寸
+$text-s: 16rpx;
+$text-m: 20rpx;
+$text-l: 24rpx;
+$text-xl: 30rpx;
+$text-xxl: 70rpx;
+
+// 圆角 
+$radius-m: 4rpx;
+$radius-l: 8rpx;
+$radius-xl: 16rpx;
+$radius-xxl: 27rpx;
+$radius-circle: 100%;
+
+// 间距
+$space-s: 4rpx;
+$space-m: 8rpx;
+$space-l: 20rpx;
+$space-xl: 30rpx;
+$space-xxl: 55rpx;
+
+// 透明度
+$opcity: 0.3; // 组件禁用态的透明度
+
+// 窗口底部高度
+$window-bottom-height: var(--window-bottom);

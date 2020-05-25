@@ -1,0 +1,104 @@
+@charset"utf-8";/*本css为常用style*/
+
+/*
+ * 
+ * 功能性样式
+ *
+/
+/*字体对齐方式*/
+.tc{text-align:center}
+.tl{text-align:left}
+.tr{text-align:right}
+/*浮动和清除浮动*/
+.fl{float:left}
+.fr{float:right}
+.clearfix:after,
+.clearfix:before{display:table;content:" "}
+.clearfix:after{clear:both}
+/*字体溢出显示...*/
+.ell{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;-o-text-overflow:ellipsis;word-break:keep-all}
+.ell_1{overflow:hidden;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;word-break:break-all}
+.ell_2{overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;word-break:break-all}
+/*弹性盒子布局*/
+.db{display:block !important}
+.dib{display:inline-block !important}
+.vam{vertical-align: middle;}
+/* 下面的命名进行了更改 */
+.fbox{display:flex}
+.fg1,.fg2,.fg3,.fg4,.fg5,.fg6,.fg7,.fg8,.fg9{width:1px}
+.fg1{flex-grow:1}
+.fg2{flex-grow:2}
+.fg3{flex-grow:3}
+.fg4{flex-grow:4}
+.fg5{flex-grow:5}
+.fg6{flex-grow:6}
+.fg7{flex-grow:7}
+.fg8{flex-grow:8}
+.fg9{flex-grow:9}
+.fbox-acenter{align-items:center;}
+.fbox-jcenter{justify-content:center;}
+.fbox-jbetween{justify-content:space-between;}
+.fbox-around{justify-content: space-around;}
+.fbox-wrap{flex-wrap: wrap;}
+/*
+ * 
+ * 展示性样式(仅供参考不用可去掉)
+ *
+ *
+ /
+/*字体图标样式*/
+.iconfont{font-size: .36rem !important;}
+/*常用颜色*/
+.color-gray{color: #666;}
+.color-lightgray{color: #999;}
+
+/*常用样式*/
+.oh{overflow: hidden;}
+.pore{position: relative;}
+.mr{margin-right: .2rem;}
+.ml{margin-left: .2rem;}
+.mt{margin-top: .2rem;}
+.mb{margin-bottom: .2rem;}
+.mar{margin:.2rem}
+.pl{padding-left: .2rem;}
+.pr{padding-right: .2rem;}
+.pt{padding-top: .2rem;}
+.pb{padding-bottom: .2rem;}
+.pad{padding: .2rem;}
+.mb-bor{border-bottom: 1px solid #E5E5E5;}
+.mt-bor{border-top:1px solid #E5E5E5 ;}
+.font-bold{font-weight: bold;}
+.font-s{font-size: .2rem;}
+.font-m{font-size: .22rem;}
+
+/*常用字号*/
+
+/* 菜单 */
+.nav{position: fixed;top: 0;width: 100%;background-color: #fff;z-index: 9998;height: .9rem;}
+.nav-ico{width: .8rem;height: .8rem;display: flex;align-items: center;justify-content: center;}
+.nav-ico{width: .6rem;height: .6rem;}
+#menu{width: 100vw;height: 100vh;position: fixed;top:0;background: rgba(0,0,0,.5); display: none;z-index: 9999;}
+.menu-main{position:absolute; top:0;left:100vw;width: 60vw;height: 100vh;background-color: #FFFFFF;float: right;z-index: 999;}
+.menu-close{height: 100vh; width: 40vw; float: left;}
+.menu-nav{width:60vw;height: .4rem;overflow: hidden;display:block; }
+.menu-nav h4{color: #FFFFFF}
+.menu-con{height:100%;overflow-x:hidden;}
+.menu-con div{display:block; font-size: .3rem;padding-top: .4rem ;margin-bottom: .4rem;}
+.menu-con .mb-bor{padding-bottom: .4rem;margin-bottom: 0;}
+.menu-con div i{color: #aaa;}
+.menu-con a{display:block; align-items:center;font-size:.40rem;}
+._btn{padding-left:.6rem;margin-left: .5rem;}
+.menu-red{color: #de0000;}
+.btnul div:hover{color:#de0000}
+.menu-index {margin-left: .55rem;}
+.menu-index div{
+	font-size: .44rem !important;
+	margin-bottom: .32rem;
+	margin-top: .44rem;
+}
+/* 固定底部 */
+.fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

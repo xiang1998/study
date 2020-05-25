@@ -1,0 +1,253 @@
+page {font-size:$text-l;background-color: $page-bg;}
+/* 弹性盒子 */
+.bb{box-sizing: border-box;}
+.db {display: block}
+.dib {display: inline-block}
+.fbox {display: flex;}
+.wrap {flex-wrap: wrap;}
+.fg0,.fg1,.fg2,.fg3,.fg4,.fg5,.fg6,.fg7,.fg8,.fg9{width: 1px}
+.fg1 {flex-grow: 1}
+.fg2 {flex-grow: 2}
+.fg3 {flex-grow: 3}
+.fg4 {flex-grow: 4}
+.fg5 {flex-grow: 5}
+.fg6 {flex-grow: 6}
+.fg7 {flex-grow: 7}
+.fg8 {flex-grow: 8}
+.fg9 {flex-grow: 9}
+.fbox-inline {display: inline-flex;}
+.fbox-col {flex-direction: column}
+.fbox-atop {align-items: flex-start;}
+.fbox-acenter {align-items: center;}
+.fbox-abottom {align-items: flex-end;}
+.fbox-astretch {align-items: stretch;}
+.fbox-jaround {justify-content: space-around;}
+.fbox-jbetween {justify-content: space-between;}
+.fbox-jcenter {justify-content: center;}
+.fbox-wrap{flex-wrap: wrap;}
+
+.fsh{flex-shrink: 0;}
+.ell {
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+}
+.ell_1 {
+	display: -webkit-box !important;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+}
+.ell_2 {
+	display: -webkit-box !important;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	// overflow: hidden;
+	// display: -webkit-box;
+	// -webkit-line-clamp: 2;
+	// -webkit-box-orient: vertical;
+}
+/* 重置样式 */
+
+/*对齐方式*/
+.tc {text-align: center;}
+.tl {text-align: left;}
+.tr {text-align: right;}
+.tj {text-align:justify;}
+
+/* 背景色 */
+.bg-page{background-color: $color-bg;}
+.bg-white{background-color: #fff;}
+.bg-black{background-color: #000;}
+/* 字体颜色 */
+.color-red{color: $color-red}
+.color-green{color: $color-green;}
+.color-gray{color: $color-gray}
+.color-light-gray{color: $color-light-gray}
+.color-black{color: $color-black}
+.color-main{color: $color-main}
+.color-white{color: $color-white}
+.color-superlight-gray{color: $color-superlight-gray;}
+.color-wtj{border-bottom-color: #ff7e3d !important;}
+.color-yth{border-bottom-color: #ff5352 !important;}
+.color-ytg{border-bottom-color: #ff5352 !important;}
+.color-shz{border-bottom-color: #fbc445 !important;}
+/* 字体相关 */
+.text-s {font-size: $text-s;}
+.text-m {font-size: $text-m;}
+.text-l {font-size: $text-l;}
+.text-xl {font-size: $text-xl;}
+.text-xxl {font-size: $text-xxl;}
+
+// 文字加粗
+.font-bold {font-weight: bold;}
+
+// 文字大写
+.upper-text {text-transform: uppercase;}
+
+// 文字删除
+.delete-text {text-decoration: line-through}
+// 文字下划线
+.line-text {text-decoration: underline;}
+// 间距
+.pad {padding: $space-l;}
+.pad-s {padding: $space-s;}
+.pad-m {padding: $space-m;}
+.pad-l {padding:$space-l;}
+.pad-xl {padding: $space-xl;}
+
+
+
+.pt {padding-top: $space-l;}
+.pt-m {padding-top: $space-m;}
+.pt-xl {padding-top: $space-xl;}
+
+.pb {padding-bottom: $space-l;}
+.pb-m {padding-bottom: $space-m;}
+.pb-xl {padding-bottom: $space-xl;}
+
+.pl {padding-left: $space-l;}
+.pl-s {padding-left: $space-s;}
+.pl-m {padding-left: $space-m;}
+.pl-xl {padding-left: $space-xl;}
+
+.pr {padding-right: $space-l;}
+.pr-s{padding-right: $space-s;}
+.pr-m {padding-right: $space-m;}
+.pr-xl {padding-right: $space-xl;}
+
+.mar {margin: $space-l;}
+.mar-s {margin: $space-s;}
+.mar-m {margin: $space-m;}
+.mar-l {margin:$space-l;}
+.mar-xl {margin: $space-xl;}
+
+.mr {margin-right: $space-l;}
+.mr-s {margin-right: $space-s;}
+.mr-m {margin-right: $space-m;}
+.mr-xl {margin-right: $space-xl;}
+.mr-xxl {margin-right: $space-xxl;}
+
+.ml {margin-left: $space-l;}
+.ml-s {margin-left: $space-s;}
+.ml-m {margin-left: $space-m;}
+.ml-xl {margin-left: $space-xl;}
+.ml-xxl {margin-left: $space-xxl;}
+
+.mb {margin-bottom: $space-l;}
+.mb-s {margin-bottom: $space-s;}
+.mb-m {margin-bottom: $space-m;}
+.mb-xl {margin-bottom: $space-xl;}
+.mb-xxl {margin-bottom: $space-xxl;}
+
+.mt {margin-top: $space-l;}
+.mt-s {margin-top: $space-s;}
+.mt-m {margin-top: $space-m;}
+.mt-xl {margin-top: $space-xl;}
+.mt-xxl{margin-top: $space-xxl;}
+// 行高
+.lh-small{line-height: 1;}
+.lh-normal {line-height: 1.8;}
+
+/* 列表修饰 */
+.list-mt{margin-top: 1px;}
+.list-mb{margin-bottom: 1px;}
+.border-gray {border: 1px solid $color-gray;}
+
+// 圆角 
+.radius-m{border-radius:$radius-m}
+.radius-l{border-radius:$radius-l}
+.radius-xl{border-radius:$radius-xl}
+.radius-xxl{border-radius:$radius-xxl}
+.radius-circle{border-radius:$radius-circle}
+
+/* 模块下页面用于分割模块的横向灰色分割线 */
+.divider-row {
+	background-color: #f6f7f7;
+	height: 16rpx;
+}
+
+/* css变量相关 */
+.window-top{top: var(--window-top);}
+.window-bottom-height,
+.window-bottom {
+	bottom: var(--window-bottom);
+}
+
+/*
+ * uni-app 组件样式自定义
+ */
+
+// 输入框定制
+.uni-input {
+	line-height: 1.8em;
+	height: 1.8em;
+	outline: none;
+	color: black;
+}
+
+// 去除 navigator 阴影
+.navigator-hover {
+	background-color: rgba(0, 0, 0, 0);
+	opacity: 1;
+}
+
+// 提交按钮在页面中的定位
+.btn-bottom-fixed {
+	position: absolute;
+	width: 616rpx;
+	bottom: calc(var(--window-bottom) + 93rpx);
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.btn-bottom-unfixed {
+	width: 630rpx;
+	margin-top: 88rpx;
+}
+
+// 半透明黑色背景
+.bg-mask {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+// 阴影
+.box-shadow {
+	box-shadow: 2px 2px 15px rgba(249,249,250,.9);
+}
+.box-dark-shadow {
+	box-shadow: 0px 0px 8px rgba(0,0,0,.2);
+}
+.box-shadow-top {
+	box-shadow: 0 -2px 7px rgba(0,0,0,0.1);
+}
+
+
+// picker 确认按钮文字颜色
+.uni-picker-action-confirm {
+	color: $color-main !important;
+}
+
+// 状态栏高度
+.status-bar-height {
+	height: var(--status-bar-height);
+}
+
+// 弹层顶部占位
+.modal-top-placeholder {
+	height: calc(var(--status-bar-height) + 224rpx);
+}
+// 白色阴影区域
+.block-area{
+	width: 624rpx;
+	margin:25rpx auto;
+	padding-bottom:25rpx;
+	border-radius: $radius-xxl;
+	background-color: $color-white;
+}
